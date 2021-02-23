@@ -1,0 +1,15 @@
+.nav_bar{
+    height: 2500px;
+    background-color: cornflowerblue;
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+}
+
+#dojo_logo{
+max-height: 35px;
+max-width: 35px;
+display: flex;
+justify-content: ;
+
+}

@@ -1,0 +1,14 @@
+.nav_bar{
+    height: 250px;
+    background-color:  blue;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.center-item{
+    height: 100px;
+    width: 100px;
+    background: rgb(226, 198, 161);
+}
+

@@ -1,14 +1,51 @@
-.nav_bar{
-    height: 250px;
-    background-color:  blue;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+*{
+    font-family: verdana;
+    margin: 0;
 }
 
-.center-item{
+body{
+    font: white;
+}
+
+.wrapper{
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+} /* Make the Dojo logo and txt line up where I want them to*/
+
+.container > h1{
+    font-size: 20px;
+    font-weight:lighter;
+    display: block;
+    text-align: center;
+}
+
+.container > img{
+    margin: 10px 10px 10px 10px;
     height: 100px;
-    width: 100px;
-    background: rgb(226, 198, 161);
+    width: 125px;
+}
+
+nav{
+    background: cornflowerblue;
+    color: white;
+    display: flex;
+}
+
+nav ul{
+    list-style-type: none;
+    padding: 1;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a{
+    text-decoration: none;
+    color:white;
 }
 
